@@ -1,0 +1,602 @@
+[
+  {
+    "nutritions": {
+      "sugar": 18,
+      "protein": 0,
+      "fat": 0,
+      "carbohydrates": 18,
+      "calories": 81
+    },
+    "id": 52,
+    "order": "Rosales",
+    "name": "Persimmon",
+    "genus": "Diospyros",
+    "family": "Ebenaceae",
+    "image": "https://images.pexels.com/photos/9540184/pexels-photo-9540184.jpeg"
+  },
+  {
+    "nutritions": {
+      "sugar": 5.4000000000000004,
+      "protein": 0.80000000000000004,
+      "fat": 0.40000000000000002,
+      "carbohydrates": 5.5,
+      "calories": 29
+    },
+    "id": 3,
+    "order": "Rosales",
+    "name": "Strawberry",
+    "genus": "Fragaria",
+    "family": "Rosaceae",
+    "image": "https://images.pexels.com/photos/2629173/pexels-photo-2629173.jpeg"
+  },
+  {
+    "nutritions": {
+      "sugar": 17.199999999999999,
+      "protein": 1,
+      "fat": 0.20000000000000001,
+      "carbohydrates": 22,
+      "calories": 96
+    },
+    "id": 1,
+    "order": "Zingiberales",
+    "name": "Banana",
+    "genus": "Musa",
+    "family": "Musaceae",
+    "image": "https://images.pexels.com/photos/16829201/pexels-photo-16829201/free-photo-of-food-purple-yellow-breakfast.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 2.6000000000000001,
+      "protein": 0.90000000000000002,
+      "fat": 0.20000000000000001,
+      "carbohydrates": 3.8999999999999999,
+      "calories": 74
+    },
+    "id": 5,
+    "order": "Solanales",
+    "name": "Tomato",
+    "genus": "Solanum",
+    "family": "Solanaceae",
+    "image": "https://images.pexels.com/photos/4247677/pexels-photo-4247677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 10,
+      "protein": 0.40000000000000002,
+      "fat": 0.10000000000000001,
+      "carbohydrates": 15,
+      "calories": 57
+    },
+    "id": 4,
+    "order": "Rosales",
+    "name": "Pear",
+    "genus": "Pyrus",
+    "family": "Rosaceae",
+    "image": "https://images.pexels.com/photos/8598321/pexels-photo-8598321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 6.75,
+      "protein": 1.5,
+      "fat": 5.2999999999999998,
+      "carbohydrates": 27.100000000000001,
+      "calories": 147
+    },
+    "id": 60,
+    "order": "Malvales",
+    "name": "Durian",
+    "genus": "Durio",
+    "family": "Malvaceae",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Durian.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 4.5,
+      "protein": 1.3,
+      "fat": 0.40000000000000002,
+      "carbohydrates": 9,
+      "calories": 40
+    },
+    "id": 64,
+    "order": "Rosales",
+    "name": "Blackberry",
+    "genus": "Rubus",
+    "family": "Rosaceae",
+    "image": "https://images.pexels.com/photos/14479349/pexels-photo-14479349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 5.7400000000000002,
+      "protein": 0.75,
+      "fat": 0.34000000000000002,
+      "carbohydrates": 11.300000000000001,
+      "calories": 50
+    },
+    "id": 65,
+    "order": "Ericales",
+    "name": "Lingonberry",
+    "genus": "Vaccinium",
+    "family": "Ericaceae",
+    "image": "https://images.pexels.com/photos/8743946/pexels-photo-8743946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 9,
+      "protein": 1.1000000000000001,
+      "fat": 0.5,
+      "carbohydrates": 15,
+      "calories": 61
+    },
+    "id": 66,
+    "order": "Struthioniformes",
+    "name": "Kiwi",
+    "genus": "Apteryx",
+    "family": "Actinidiaceae",
+    "image": "https://images.pexels.com/photos/6123032/pexels-photo-6123032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 15,
+      "protein": 0.80000000000000004,
+      "fat": 0.44,
+      "carbohydrates": 17,
+      "calories": 66
+    },
+    "id": 67,
+    "order": "Sapindales",
+    "name": "Lychee",
+    "genus": "Litchi",
+    "family": "Sapindaceae",
+    "image": "https://post.healthline.com/wp-content/uploads/2020/08/lychees-732x549-thumbnail-732x549.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 9.8499999999999996,
+      "protein": 0.54000000000000004,
+      "fat": 0.12,
+      "carbohydrates": 13.119999999999999,
+      "calories": 50
+    },
+    "id": 10,
+    "order": "Poales",
+    "name": "Pineapple",
+    "genus": "Ananas",
+    "family": "Bromeliaceae",
+    "image": "https://images.pexels.com/photos/4412924/pexels-photo-4412924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 16,
+      "protein": 0.80000000000000004,
+      "fat": 0.29999999999999999,
+      "carbohydrates": 19,
+      "calories": 74
+    },
+    "id": 68,
+    "order": "Rosales",
+    "name": "Fig",
+    "genus": "Ficus",
+    "family": "Moraceae",
+    "image": "https://images.pexels.com/photos/15662974/pexels-photo-15662974/free-photo-of-fresh-ripe-figs.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 0,
+      "protein": 0.90000000000000002,
+      "fat": 0.59999999999999998,
+      "carbohydrates": 10,
+      "calories": 44
+    },
+    "id": 69,
+    "order": "Saxifragales",
+    "name": "Gooseberry",
+    "genus": "Ribes",
+    "family": "Grossulariaceae",
+    "image": "https://www.thespruceeats.com/thmb/L08tTLiV8_l_ijLCVBBrci-6TSI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gooseberriesDavidMarsden-a5080e95f76640638d1144f2742e454d.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 11.199999999999999,
+      "protein": 2.2000000000000002,
+      "fat": 0.69999999999999996,
+      "carbohydrates": 22.399999999999999,
+      "calories": 97
+    },
+    "id": 70,
+    "order": "Malpighiales",
+    "name": "Passionfruit",
+    "genus": "Passiflora",
+    "family": "Passifloraceae",
+    "image": "https://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/homes/2019/10/22/9525/passionfruit.jpg?width=600&height=315&quality=75&mode=crop"
+  },
+  {
+    "nutritions": {
+      "sugar": 9.9199999999999999,
+      "protein": 0.69999999999999996,
+      "fat": 0.28000000000000003,
+      "carbohydrates": 11.4,
+      "calories": 46
+    },
+    "id": 71,
+    "order": "Rosales",
+    "name": "Plum",
+    "genus": "Prunus",
+    "family": "Rosaceae",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2019/09/Plums-in-a-tree-4a97a61.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 8.1999999999999993,
+      "protein": 1,
+      "fat": 0.20000000000000001,
+      "carbohydrates": 8.3000000000000007,
+      "calories": 43
+    },
+    "id": 2,
+    "order": "Sapindales",
+    "name": "Orange",
+    "genus": "Citrus",
+    "family": "Rutaceae",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ambersweet_oranges.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 6.4000000000000004,
+      "protein": 0.40000000000000002,
+      "fat": 0.10000000000000001,
+      "carbohydrates": 3.1000000000000001,
+      "calories": 21
+    },
+    "id": 72,
+    "order": "Rosales",
+    "name": "GreenApple",
+    "genus": "Malus",
+    "family": "Rosaceae",
+    "image": "https://images.pexels.com/photos/5945863/pexels-photo-5945863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 4.4000000000000004,
+      "protein": 1.2,
+      "fat": 0.69999999999999996,
+      "carbohydrates": 12,
+      "calories": 53
+    },
+    "id": 23,
+    "order": "Rosales",
+    "name": "Raspberry",
+    "genus": "Rubus",
+    "family": "Rosaceae",
+    "image": "https://images.pexels.com/photos/5945574/pexels-photo-5945574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 6,
+      "protein": 0.59999999999999998,
+      "fat": 0.20000000000000001,
+      "carbohydrates": 8,
+      "calories": 30
+    },
+    "id": 25,
+    "order": "Cucurbitales",
+    "name": "Watermelon",
+    "genus": "Citrullus",
+    "family": "Cucurbitaceae",
+    "image": "https://images.pexels.com/photos/7284760/pexels-photo-7284760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 2.5,
+      "protein": 1.1000000000000001,
+      "fat": 0.29999999999999999,
+      "carbohydrates": 9,
+      "calories": 29
+    },
+    "id": 26,
+    "order": "Sapindales",
+    "name": "Lemon",
+    "genus": "Citrus",
+    "family": "Rutaceae",
+    "image": "https://cdn.britannica.com/84/188484-050-F27B0049/lemons-tree.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 13.699999999999999,
+      "protein": 0.81999999999999995,
+      "fat": 0.38,
+      "carbohydrates": 15,
+      "calories": 60
+    },
+    "id": 27,
+    "order": "Sapindales",
+    "name": "Mango",
+    "genus": "Mangifera",
+    "family": "Anacardiaceae",
+    "image": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/01/mangoes_what_to_know_732x549_thumb-732x549.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 5.4000000000000004,
+      "protein": 0,
+      "fat": 0.40000000000000002,
+      "carbohydrates": 5.5,
+      "calories": 29
+    },
+    "id": 33,
+    "order": "Rosales",
+    "name": "Blueberry",
+    "genus": "Fragaria",
+    "family": "Rosaceae",
+    "image": "https://images.pexels.com/photos/12755895/pexels-photo-12755895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 10.300000000000001,
+      "protein": 0.29999999999999999,
+      "fat": 0.40000000000000002,
+      "carbohydrates": 11.4,
+      "calories": 52
+    },
+    "id": 6,
+    "order": "Rosales",
+    "name": "Apple",
+    "genus": "Malus",
+    "family": "Rosaceae",
+    "image": "https://images.pexels.com/photos/9540184/pexels-photo-9540184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 9,
+      "protein": 2.6000000000000001,
+      "fat": 1,
+      "carbohydrates": 14,
+      "calories": 68
+    },
+    "id": 37,
+    "order": "Myrtales",
+    "name": "Guava",
+    "genus": "Psidium",
+    "family": "Myrtaceae",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Guava_ID.jpg/1200px-Guava_ID.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 3.2000000000000002,
+      "protein": 0.5,
+      "fat": 0.10000000000000001,
+      "carbohydrates": 3.8999999999999999,
+      "calories": 15
+    },
+    "id": 35,
+    "order": "Rosales",
+    "name": "Apricot",
+    "genus": "Prunus",
+    "family": "Rosaceae",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/02/apricots-6a69ba0.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 1,
+      "protein": 0,
+      "fat": 0.40000000000000002,
+      "carbohydrates": 11,
+      "calories": 43
+    },
+    "id": 42,
+    "order": "Caricacea",
+    "name": "Papaya",
+    "genus": "Carica",
+    "family": "Caricaceae",
+    "image": "https://post.healthline.com/wp-content/uploads/2020/09/papaya-benefits-732x549-thumbnail-732x549.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 8,
+      "protein": 0,
+      "fat": 0,
+      "carbohydrates": 8,
+      "calories": 34
+    },
+    "id": 41,
+    "order": "Cucurbitaceae",
+    "name": "Melon",
+    "genus": "Cucumis",
+    "family": "Cucurbitaceae",
+    "image": "https://nationaltoday.com/wp-content/uploads/2022/07/8-Melon-Day-1200x834.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 9.0999999999999996,
+      "protein": 0,
+      "fat": 0.40000000000000002,
+      "carbohydrates": 8.3000000000000007,
+      "calories": 45
+    },
+    "id": 77,
+    "order": "Sapindales",
+    "name": "Tangerine",
+    "genus": "Citrus",
+    "family": "Rutaceae",
+    "image": "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/2020-11/clementines%C2%A9iStock.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 3,
+      "protein": 1,
+      "fat": 0.40000000000000002,
+      "carbohydrates": 7,
+      "calories": 36
+    },
+    "id": 78,
+    "order": "Caryophyllales",
+    "name": "Pitahaya",
+    "genus": "Cactaceae",
+    "family": "Cactaceae",
+    "image": "https://www.iica.int/sites/default/files/news/2018-07/pitahaya_o_fruta_del_dragon_0.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 1.7,
+      "protein": 0.29999999999999999,
+      "fat": 0.10000000000000001,
+      "carbohydrates": 8.4000000000000004,
+      "calories": 25
+    },
+    "id": 44,
+    "order": "Sapindales",
+    "name": "Lime",
+    "genus": "Citrus",
+    "family": "Rutaceae",
+    "image": "https://post.healthline.com/wp-content/uploads/2021/09/Fresh-Limes-and-Lime-Drink-1200x628-facebook-1200x628.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 13.699999999999999,
+      "protein": 1.7,
+      "fat": 1.2,
+      "carbohydrates": 18.699999999999999,
+      "calories": 83
+    },
+    "id": 79,
+    "order": "Myrtales",
+    "name": "Pomegranate",
+    "genus": "Punica",
+    "family": "Lythraceae",
+    "image": "https://images.pexels.com/photos/4089670/pexels-photo-4089670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 8,
+      "protein": 9,
+      "fat": 1.5,
+      "carbohydrates": 9,
+      "calories": 60
+    },
+    "id": 80,
+    "order": "Caryophyllales",
+    "name": "Dragonfruit",
+    "genus": "Selenicereus",
+    "family": "Cactaceae",
+    "image": "https://post.healthline.com/wp-content/uploads/2020/09/AN445-Dragonfruit-732x549-thumb.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 16,
+      "protein": 0.71999999999999997,
+      "fat": 0.16,
+      "carbohydrates": 18.100000000000001,
+      "calories": 69
+    },
+    "id": 81,
+    "order": "Vitales",
+    "name": "Grape",
+    "genus": "Vitis",
+    "family": "Vitaceae",
+    "image": "https://health.clevelandclinic.org/wp-content/uploads/sites/3/2021/11/Benefitsof-Grapes-1305284794-770x533-1.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 8.0999999999999996,
+      "protein": 1.4399999999999999,
+      "fat": 0.39000000000000001,
+      "carbohydrates": 9.8000000000000007,
+      "calories": 43
+    },
+    "id": 82,
+    "order": "Rosales",
+    "name": "Morus",
+    "genus": "Morus",
+    "family": "Moraceae",
+    "image": "https://www.vdberk.se/media/64820/morus-alba.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 3,
+      "protein": 0.59999999999999998,
+      "fat": 0.40000000000000002,
+      "carbohydrates": 8,
+      "calories": 44
+    },
+    "id": 76,
+    "order": "Myrtoideae",
+    "name": "Feijoa",
+    "genus": "Sellowiana",
+    "family": "Myrtaceae",
+    "image": "https://theabsolutefoodie.com/wp-content/uploads/2022/09/feijoa-recipes.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 0.66000000000000003,
+      "protein": 2,
+      "fat": 14.66,
+      "carbohydrates": 8.5299999999999994,
+      "calories": 160
+    },
+    "id": 84,
+    "order": "Laurales",
+    "name": "Avocado",
+    "genus": "Persea",
+    "family": "Lauraceae",
+    "image": "https://assets.epicurious.com/photos/644fd758a5fd6f443b199794/16:9/w_2560%2Cc_limit/AvocadoStorage_HERO_042723_52634.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 8.9000000000000004,
+      "protein": 1.1399999999999999,
+      "fat": 0.5,
+      "carbohydrates": 14.6,
+      "calories": 61
+    },
+    "id": 85,
+    "order": "Ericales",
+    "name": "Kiwifruit",
+    "genus": "Actinidia",
+    "family": "Actinidiaceae",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2019/06/kiwi-aedbdbf.jpg"
+  },
+  {
+    "nutritions": {
+      "sugar": 4,
+      "protein": 0.40000000000000002,
+      "fat": 0.10000000000000001,
+      "carbohydrates": 12.199999999999999,
+      "calories": 46
+    },
+    "id": 87,
+    "order": "Ericales",
+    "name": "Cranberry",
+    "genus": "Vaccinium",
+    "family": "Ericaceae",
+    "image": "https://plus.unsplash.com/premium_photo-1674347953907-5518c9ff379d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JhbmJlcnJ5fGVufDB8fDB8fHww&w=1000&q=80"
+  },
+  {
+    "nutritions": {
+      "sugar": 8,
+      "protein": 1,
+      "fat": 0.29999999999999999,
+      "carbohydrates": 12,
+      "calories": 50
+    },
+    "id": 9,
+    "order": "Rosales",
+    "name": "Cherry",
+    "genus": "Prunus",
+    "family": "Rosaceae",
+    "image": "https://images.pexels.com/photos/2747421/pexels-photo-2747421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nutritions": {
+      "sugar": 8.4000000000000004,
+      "protein": 0.90000000000000002,
+      "fat": 0.25,
+      "carbohydrates": 9.5,
+      "calories": 39
+    },
+    "id": 86,
+    "order": "Rosales",
+    "name": "Peach",
+    "genus": "Prunus",
+    "family": "Rosaceae",
+    "image": "https://www.shape.com/thmb/B1tsC6UXOP2yXiIxwvWsRg4-Y5Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peaches-promo-a0d430283f7440a1955a71c014d2628e.jpg"
+  }
+]
