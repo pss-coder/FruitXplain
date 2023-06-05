@@ -16,3 +16,8 @@ Either take a picture or from photo library to classify fruit, powered by CoreML
 - SwiftUI on Xcode
 - Fruit Database gathered and locally stored from [FruityVice](https://www.fruityvice.com/)
 - Images scrapped from Pexels and google images
+
+#### Learnings
+- Fun simple project as a refresher to my iOS development and SwiftUI learnings
+- Stack Views ( H/V/ZStack )
+- CoreML ( Image Classifier )
