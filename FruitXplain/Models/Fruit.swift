@@ -31,7 +31,15 @@ struct Fruit: Hashable, Codable, Identifiable {
     
     var image: String
     
+    
     var description: String {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu posuere tellus. Ut tincidunt pellentesque velit, sed gravida ex aliquet at. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas bibendum nisi orci, eget vulputate est posuere nec. Aliquam viverra dolor quis mauris pharetra tempus. Suspendisse tempus, ligula quis fringilla egestas, erat elit ullamcorper ligula, vel congue elit arcu id risus. Ut vulputate metus nec suscipit lobortis. Sed porttitor sodales leo lacinia auctor. Etiam pretium justo vitae dolor sollicitudin, ac vulputate justo molestie. Nam pharetra lorem vel tempus malesuada. Sed nec elit dolor. Donec ut arcu vulputate, efficitur ante et, laoreet ligula. Donec ac semper mi, placerat porttitor metus."
+    }
+    
+    // TODO: update database
+        // have database online!! <- Postgres?? nosql??
+        // firebase!!!
+    var isFavorite: Bool {
+        return false
     }
 }

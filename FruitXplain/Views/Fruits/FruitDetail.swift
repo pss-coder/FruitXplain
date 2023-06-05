@@ -16,34 +16,27 @@ struct FruitDetail: View {
     var body: some View {
         VStack {
             FruitImage(imageStr: fruit.image)
-//                .frame(height: 300)
+                .frame(width: 200, height: 200)
 //                .ignoresSafeArea(edges: .top) // exted to screen edge
 
-            
-            
-            VStack(alignment:.leading) {
-                HStack {
-                    Text("\(fruit.name)")
-                        .font(.title)
-                }
+            HStack {
+                Text("\(fruit.name)")
+                    .font(.title)
+                    .fontWeight(.heavy)
                 
+                Spacer()
                 
-                HStack {
+                VStack(alignment:.trailing) {
                     Text(fruit.order)
                         .font(.caption)
-
-                    Spacer(minLength: 10)
-                    
                     Text(fruit.genus)
                         .font(.caption)
-                    
                 }
             }
-            .padding(.horizontal)
-            .foregroundColor(.white)
-            .padding(.bottom, -130)
-            .offset(y: -80)
-
+            .padding([.bottom, .horizontal])
+            
+            
+        
 
             VStack(alignment:.leading) {
                 Text("Nutrition")
@@ -79,15 +72,6 @@ struct FruitDetail: View {
                 }
                 .font(.subheadline)
                 
-            }
-            .padding(.horizontal)
-            
-            VStack(alignment: .leading) {
-                Text("Description")
-                    .font(.title3)
-                
-                Divider()
-                    
                 ScrollView {
                     Text(fruit.description)
                         .font(.footnote)
@@ -95,12 +79,10 @@ struct FruitDetail: View {
                 .scrollIndicators(.visible)
                 
             }
-            .padding()
-            
-            
+            .padding([.horizontal])
+
         }
         .navigationTitle(fruit.name)
-        .navigationBarTitleDisplayMode(.inline)
 //        .task {
 //            await loadPexel(fruit: fruit.name)
 //        }

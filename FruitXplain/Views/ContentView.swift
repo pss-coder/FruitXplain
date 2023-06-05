@@ -8,8 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    enum Tab {
+            case home
+            case list
+            case snap
+        }
+    
+    @State private var selection: Tab = .home
+    
     var body: some View {
-        FruitList(modelData: ModelData())
+//        FruitList(modelData: ModelData())
+        TabView(selection: $selection) {
+            VStack {
+                FruitHome(fruit: ModelData().fruits.randomElement()!)
+                Spacer()
+            }
+            .tabItem {
+                Label("Home", systemImage: "star")
+            }
+            .tag(Tab.home)
+            
+            FruitList(modelData: ModelData())
+                .tabItem {
+                    Label("List", systemImage: "list.bullet")
+                }
+                .tag(Tab.list)
+            FruitSnap(classifier: ImageClassifier())
+                .tabItem {
+                    Label("Snap", systemImage: "camera")
+                }
+                .tag(Tab.snap)
+        }
         
     }
 }

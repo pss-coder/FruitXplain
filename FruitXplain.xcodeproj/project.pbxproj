@@ -19,7 +19,14 @@
 		720B78532A1D505E00B739F4 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B78522A1D505E00B739F4 /* ModelData.swift */; };
 		720B78552A1E360300B739F4 /* FruitImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B78542A1E360300B739F4 /* FruitImage.swift */; };
 		720B78572A1EAB1800B739F4 /* Pexel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B78562A1EAB1800B739F4 /* Pexel.swift */; };
+		72339D5D2A263B3C00E2D969 /* FruitHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72339D5C2A263B3C00E2D969 /* FruitHome.swift */; };
+		72339D5F2A2CE10500E2D969 /* FruitSnap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72339D5E2A2CE10400E2D969 /* FruitSnap.swift */; };
+		72339D672A2DF30A00E2D969 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72339D662A2DF30A00E2D969 /* ImagePicker.swift */; };
+		72339D6D2A2DFC9D00E2D969 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 72339D6C2A2DFC9D00E2D969 /* MobileNetV2.mlmodel */; };
+		72339D6F2A2DFF9F00E2D969 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72339D6E2A2DFF9F00E2D969 /* Classifier.swift */; };
+		72339D712A2E004C00E2D969 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72339D702A2E004C00E2D969 /* ImageClassifier.swift */; };
 		727369992A213C3800D49A26 /* fruit_dbv2.json in Resources */ = {isa = PBXBuildFile; fileRef = 727369982A213C3700D49A26 /* fruit_dbv2.json */; };
+		7273699D2A25313400D49A26 /* FruitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273699C2A25313400D49A26 /* FruitCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +43,14 @@
 		720B78522A1D505E00B739F4 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		720B78542A1E360300B739F4 /* FruitImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitImage.swift; sourceTree = "<group>"; };
 		720B78562A1EAB1800B739F4 /* Pexel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pexel.swift; sourceTree = "<group>"; };
+		72339D5C2A263B3C00E2D969 /* FruitHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHome.swift; sourceTree = "<group>"; };
+		72339D5E2A2CE10400E2D969 /* FruitSnap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitSnap.swift; sourceTree = "<group>"; };
+		72339D662A2DF30A00E2D969 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		72339D6C2A2DFC9D00E2D969 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		72339D6E2A2DFF9F00E2D969 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		72339D702A2E004C00E2D969 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
 		727369982A213C3700D49A26 /* fruit_dbv2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fruit_dbv2.json; sourceTree = "<group>"; };
+		7273699C2A25313400D49A26 /* FruitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +85,9 @@
 			children = (
 				720B78372A1D4C6500B739F4 /* FruitXplainApp.swift */,
 				720B784C2A1D4E8700B739F4 /* Views */,
+				72339D6C2A2DFC9D00E2D969 /* MobileNetV2.mlmodel */,
 				7273699A2A24DF5C00D49A26 /* Models */,
+				72339D682A2DF9D300E2D969 /* Helpers */,
 				7273699B2A24DF6F00D49A26 /* Resources */,
 				720B783B2A1D4C6700B739F4 /* Assets.xcassets */,
 				720B783D2A1D4C6700B739F4 /* Preview Content */,
@@ -90,9 +106,11 @@
 		720B784B2A1D4E7400B739F4 /* Fruits */ = {
 			isa = PBXGroup;
 			children = (
-				720B78472A1D4D4600B739F4 /* FruitList.swift */,
-				720B78492A1D4D8500B739F4 /* FruitRow.swift */,
+				72339D692A2DFA0200E2D969 /* Home */,
+				72339D6A2A2DFA0700E2D969 /* List */,
+				72339D6B2A2DFA1000E2D969 /* Snap */,
 				720B784D2A1D4EB700B739F4 /* FruitDetail.swift */,
+				720B78542A1E360300B739F4 /* FruitImage.swift */,
 			);
 			path = Fruits;
 			sourceTree = "<group>";
@@ -102,9 +120,44 @@
 			children = (
 				720B78392A1D4C6500B739F4 /* ContentView.swift */,
 				720B784B2A1D4E7400B739F4 /* Fruits */,
-				720B78542A1E360300B739F4 /* FruitImage.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		72339D682A2DF9D300E2D969 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				72339D662A2DF30A00E2D969 /* ImagePicker.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		72339D692A2DFA0200E2D969 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				72339D5C2A263B3C00E2D969 /* FruitHome.swift */,
+				7273699C2A25313400D49A26 /* FruitCard.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		72339D6A2A2DFA0700E2D969 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				720B78472A1D4D4600B739F4 /* FruitList.swift */,
+				720B78492A1D4D8500B739F4 /* FruitRow.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		72339D6B2A2DFA1000E2D969 /* Snap */ = {
+			isa = PBXGroup;
+			children = (
+				72339D5E2A2CE10400E2D969 /* FruitSnap.swift */,
+				72339D6E2A2DFF9F00E2D969 /* Classifier.swift */,
+				72339D702A2E004C00E2D969 /* ImageClassifier.swift */,
+			);
+			path = Snap;
 			sourceTree = "<group>";
 		};
 		7273699A2A24DF5C00D49A26 /* Models */ = {
@@ -198,14 +251,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72339D6D2A2DFC9D00E2D969 /* MobileNetV2.mlmodel in Sources */,
 				720B78572A1EAB1800B739F4 /* Pexel.swift in Sources */,
 				720B78552A1E360300B739F4 /* FruitImage.swift in Sources */,
+				72339D5D2A263B3C00E2D969 /* FruitHome.swift in Sources */,
 				720B78512A1D4F7C00B739F4 /* Fruit.swift in Sources */,
 				720B783A2A1D4C6500B739F4 /* ContentView.swift in Sources */,
 				720B78382A1D4C6500B739F4 /* FruitXplainApp.swift in Sources */,
 				720B78482A1D4D4600B739F4 /* FruitList.swift in Sources */,
+				72339D712A2E004C00E2D969 /* ImageClassifier.swift in Sources */,
 				720B784E2A1D4EB700B739F4 /* FruitDetail.swift in Sources */,
 				720B784A2A1D4D8500B739F4 /* FruitRow.swift in Sources */,
+				72339D6F2A2DFF9F00E2D969 /* Classifier.swift in Sources */,
+				7273699D2A25313400D49A26 /* FruitCard.swift in Sources */,
+				72339D672A2DF30A00E2D969 /* ImagePicker.swift in Sources */,
+				72339D5F2A2CE10500E2D969 /* FruitSnap.swift in Sources */,
 				720B78532A1D505E00B739F4 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +398,7 @@
 				DEVELOPMENT_TEAM = MZ483TW92Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera to capture fruit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -367,6 +428,7 @@
 				DEVELOPMENT_TEAM = MZ483TW92Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera to capture fruit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
